@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shopzon</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 0.5rem 0 0.25rem;
+    }
+    .product-card p {
+      margin: 0;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .product-card a {
+      display: inline-block;
+      margin: 1rem 0;
+      padding: 10px 20px;
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shopzon</h1>
+    <p>Trendy Products. Easy Ordering.</p>
+  </header>
+  <section class="products">
+    <div class="product-card">
+      <img src="images/kurti-blue.jpg" alt="Floral Kurti Set (Blue)">
+      <h3>Floral Kurti Set (Blue)</h3>
+      <p>₹300</p>
+      <a href="https://wa.me/917387706493?text=Hi%2C%20I%20want%20to%20order%20the%20Floral%20Kurti%20Set%20(Blue)">Order on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/kurti-white.jpg" alt="Floral Kurti Set (White)">
+      <h3>Floral Kurti Set (White)</h3>
+      <p>₹400</p>
+      <a href="https://wa.me/917387706493?text=Hi%2C%20I%20want%20to%20order%20the%20Floral%20Kurti%20Set%20(White)">Order on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/shirt.jpg" alt="Slim-Fit Double Pocket Shirt">
+      <h3>Slim-Fit Double Pocket Shirt</h3>
+      <p>₹350</p>
+      <a href="https://wa.me/917387706493?text=Hi%2C%20I%20want%20to%20order%20the%20Slim-Fit%20Double%20Pocket%20Shirt">Order on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/chopper.jpg" alt="Compact Vegetable Chopper">
+      <h3>Compact Vegetable Chopper</h3>
+      <p>₹250</p>
+      <a href="https://wa.me/917387706493?text=Hi%2C%20I%20want%20to%20order%20the%20Compact%20Vegetable%20Chopper">Order on WhatsApp</a>
+    </div>
+  </section>
+</body>
+</html>
